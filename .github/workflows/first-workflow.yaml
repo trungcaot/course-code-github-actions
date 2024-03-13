@@ -3,6 +3,7 @@ on: [push]
 
 jobs:
   run-shell-commands:
+    name: run-shell-commands-testing
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
